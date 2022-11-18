@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #303030;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn{
+    padding: 20px 25px;
+    font-weight: bold;
+    font-size: 1.4rem;
+    background-color: #303030;
+    color: white;
+    border-radius: 10px;
+    /* transition: 0.5s; */
+}
+.btn_groups{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(4,1fr);
+    gap: 14px;
+    background-color: antiquewhite;
+    padding: 2.1rem;
+    border-radius: 10px;
+}
+.vertical{
+    background : red;
+    grid-row:4/7;
+    grid-column: 4/5;
+}
+.heading{
+    padding: 1.5rem;
+    position: relative;
+    left: 0;
+    border-radius: 10px;
+    background-color: #303652;
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 150px;
+}
+
+.btn:hover{
+    transform: scaleY(1.1);
+    cursor: pointer;
+    background-color: #303652;
+}
+.calc_editoin
+{
+    font-size: 4.5rem;
+}
